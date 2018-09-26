@@ -1,0 +1,162 @@
+@import "variables";
+@import "mixins";
+
+*, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+html, body {
+  background-color: $body-bg;
+}
+
+.has-shadow {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+}
+
+.button {
+  @include transition(all, .2s, ease-in);
+  &.btn-accent-1 {
+    background-color: $accent-color-1;
+    color: $white;
+    &:hover {
+      background-color: darken($accent-color-1, 5%);
+      color: $white;
+    }
+  }
+  &.btn-accent-2 {
+    background-color: $accent-color-2;
+    color: $white;
+    &:hover {
+      color: $white;
+      background-color: darken($accent-color-2, 5%);
+    }
+  }
+}
+
+.has-margin-top {
+  margin-top: 2rem !important;
+}
+
+.has-margin-bottom {
+  margin-bottom: 2rem !important;
+}
+
+.navbar {
+  @include transition(all, .5s, ease-in);
+  background-image: linear-gradient(90deg, $brand-color, $brand-dark);
+}
+
+.navbar-item {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 9px;
+  margin-right: 9px;
+  :hover {
+    text-decoration: none !important;
+  }
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background-size: cover;
+  background-image: linear-gradient(90deg, $brand-color, $brand-dark);
+
+  //background: url('../images/jobees_desk.png') no-repeat fixed center;
+  //background-image: linear-gradient(90deg, $brand-color, $accent-color);
+  //@include overlay('', absolute, 100%, 100%, 0, 0, 0, .3, $black);
+
+  /*&:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    left: 0;
+    top: 0;
+    right: 0;
+    transform-origin: top left;
+    -webkit-transform: skewY(15deg);
+    -moz-transform: skewY(15deg);
+    -ms-transform: skewY(15deg);
+    -o-transform: skewY(15deg);
+    transform: skewY(15deg);
+  }*/
+
+}
+
+#whyChoose {
+  .box {
+    margin-top: 32px;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 1px 5px 3px transparentize($black-ter, .95);
+    @include transition(all, .3s, ease-in);
+    img {
+      width: 155px;
+      height: 155px;
+    }
+    &:hover {
+      -webkit-transform: scale(1.05) translateY(-10px);
+      -moz-transform: scale(1.05) translateY(-10px);
+      -ms-transform: scale(1.05) translateY(-10px);
+      -o-transform: scale(1.05) translateY(-10px);
+      transform: scale(1.05) translateY(-10px);
+      box-shadow: 0 1px 5px 3px transparentize($black-ter, .90);
+    }
+  }
+}
+
+.microCard {
+  @include transition(all, .3s, ease-in);
+  cursor: pointer;
+  padding: 30px 20px;
+  display: flex;
+  margin-right: 1rem;
+  box-shadow: 0 1px 5px transparentize($black, .85);
+  border-radius: 2px;
+  position: relative;
+  width: 100%;
+  &:hover {
+    -webkit-transform: scale(1.02) rotate(1.2deg);
+    -moz-transform: scale(1.02) rotate(1.2deg);
+    -ms-transform: scale(1.02) rotate(1.2deg);
+    -o-transform: scale(1.02) rotate(1.2deg);
+    transform: scale(1.02) rotate(1.2deg);
+    box-shadow: 0 1px 5px transparentize($black-ter, .80);
+  }
+  .content {
+    padding-top: .3rem;
+    padding-left: .6rem;
+
+    h4 {
+      margin-bottom: .7rem;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.footer {
+  ul {
+    li:first-child {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    li {
+      color: lighten($black, 5%);
+      margin-bottom: .5rem !important;
+      a {
+        color: inherit;
+        //p;
+      }
+    }
+  }
+}

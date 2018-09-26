@@ -1,0 +1,33 @@
+// Body
+$body-bg: #fafafa;
+$white: #fff;
+$back: #000;
+
+$brand-color: #26c6da;
+$brand-dark: #5B86E5;
+//$brand-dark: #00BCD4;
+$accent-color-1: #30e8bf;
+$accent-color-2: #FF8235;
+
+$dark-color: #3C3B3F;
+$main-gradient-color: linear-gradient(90deg, $brand-color, $accent-color-1);
+$secondary-gradient-color: linear-gradient(90deg, $brand-color, lighten($brand-color, 8%));
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+//navbar
+$navbar-background-color: $brand-color;
+$navbar-item-color: #fff;
+$navbar-item-hover-color: darken(#fff,5%);
+$navbar-item-hover-background-color: transparentize($brand-color, .5);
+
+//buttons
+$button-border-color: none;
+$button-hover-border-color: none;
+//box
+$box-padding: 2.2rem !important;
+$box-radius: 1px;
+

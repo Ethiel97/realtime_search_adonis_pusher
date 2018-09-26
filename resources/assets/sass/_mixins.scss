@@ -1,0 +1,33 @@
+@mixin overlay($content,$position,$width,$height,$top,$left,$right,$opacity,$background-color,$background-image:null) {
+  &:before {
+    content: $content;
+    position: $position;
+    width: $width;
+    height: $height;
+    left: $left;
+    right: $right;
+    opacity: $opacity;
+    background: $background-color $background-image;
+    top: $top;
+  }
+}
+
+@mixin transition($property, $duration,$timing-function,$delay:null) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+  -webkit-timing-function: $timing-function;
+  -moz-timing-function: $timing-function;
+  -o-timing-function: $timing-function;
+  timing-function: $timing-function;
+  -webkit-transition-delay: $delay;
+  -moz-transition-delay: $delay;
+  -o-transition-delay: $delay;
+  transition-delay: $delay;
+}
+
