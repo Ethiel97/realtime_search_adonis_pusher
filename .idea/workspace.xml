@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b7d09ce-2056-481d-ba6a-d5a49621f741" name="Default Changelist" comment="" />
+    <list default="true" id="3b7d09ce-2056-481d-ba6a-d5a49621f741" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,7 +28,7 @@
           <entry key="env" value="3" />
           <entry key="js" value="24" />
           <entry key="json" value="2" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="vue" value="5" />
         </counts>
       </usages-collector>
@@ -35,7 +38,7 @@
           <entry key="HTML" value="5" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="24" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Vue.js" value="5" />
         </counts>
       </usages-collector>
@@ -45,6 +48,7 @@
           <entry key="env" value="101" />
           <entry key="js" value="1546" />
           <entry key="json" value="5" />
+          <entry key="md" value="77" />
           <entry key="vue" value="390" />
         </counts>
       </usages-collector>
@@ -54,6 +58,7 @@
           <entry key="HTML" value="87" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="1546" />
+          <entry key="PLAIN_TEXT" value="77" />
           <entry key="Vue.js" value="390" />
         </counts>
       </usages-collector>
@@ -67,7 +72,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Products.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -75,6 +80,15 @@
               <folding>
                 <element signature="e#466#497#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -154,15 +168,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -178,6 +183,12 @@
       <find>pusher</find>
       <find>mounte</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Adonis</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -195,6 +206,7 @@
         <option value="$PROJECT_DIR$/app/Controllers/Http/ProductController.js" />
         <option value="$PROJECT_DIR$/start/events.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/Products.vue" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -214,11 +226,12 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="width" value="1125" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -310,27 +323,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537884420846</updated>
-      <workItem from="1537884425254" duration="29035000" />
+      <workItem from="1537884425254" duration="29604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29035000" />
+    <option name="totallyTimeSpent" value="29604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4257975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="NativeScript" weight="0.2642559" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33192685" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30876216" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -416,11 +430,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Product.vue">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/adonis-pusher/providers/Pusher.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -523,6 +532,13 @@
           <folding>
             <element signature="e#466#497#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
