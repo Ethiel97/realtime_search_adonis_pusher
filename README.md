@@ -6,7 +6,7 @@ A realtime search feature with Adonis using Pusher for realtime stuff
 
 
 ## Getting Started
-Make sure you have `npm` and `composer` on your local machine
+Make sure you have `npm` and `yarn` on your local machine
 
 1.  Clone this repository and cd into it
 2.  Run `yarn` or `npm install` to download dependencies
