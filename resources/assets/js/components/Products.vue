@@ -1,13 +1,10 @@
 <template>
   <div class="container">
-    <div class="row" v-if="products.length> 0" v-for="products in groupedProducts">
+    <div class="row" v-for="products in groupedProducts">
       <div class="col-md-3 col-sm-6" v-for="product in products">
         <product class="animated fadeIn" :product="product"></product>
       </div>
       <div class="col w-100"></div>
-    </div>
-    <div v-else >
-      <p class="text-center">No items</p>
     </div>
   </div>
 </template>
